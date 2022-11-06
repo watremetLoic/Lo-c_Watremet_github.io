@@ -1,0 +1,7 @@
+.checked{
+    background-image: url(image/ckeck.png);
+    width: 25px;
+    height: 25px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
