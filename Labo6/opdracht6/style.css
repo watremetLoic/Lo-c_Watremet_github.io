@@ -1,7 +1,9 @@
 .checked{
-    background-image: url(image/ckeck.png);
-    width: 25px;
-    height: 25px;
-    background-size: 20px;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(images/check2.png);
     background-repeat: no-repeat;
+    background-size: 25px;
+    padding-left: 25px;
 }
