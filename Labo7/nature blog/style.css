@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.pagina{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.boven{
+    background-image: url("images/header.jpg");
+    height: 100px;
+    color: white;
+}
+
+.boven h1{
+    padding: 0 0 10px 6px;
+    font-size: 5ex;
+}
+
+nav{
+    background-color: #252923;
+    color: black;
+    padding: 2px;
+}
+
+nav a{
+    color: aquamarine;
+    font-weight: 600;
+}
+
+article {
+    padding: 10px;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+article header h1 {
+    text-decoration: underline;
+    font-size: 4ex;
+    padding: 20px 0 20px 0;
+}
+
+footer{
+    padding: 10px 0 0 0;
+}

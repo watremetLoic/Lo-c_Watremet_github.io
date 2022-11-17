@@ -1,0 +1,50 @@
+td:first-child, td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+tbody{
+    color: black;
+    background-color: azure;
+    font-family: sans-serif;
+}
+
+.free {
+    background-color: rgb(250, 120, 120);
+}
+
+.underline {
+    text-decoration: underline;
+    color: blue;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2.5px solid black;
+    text-align: left;
+    width: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+table th table td{
+    padding: 3px 13px;
+}
+.head{
+    background-color: lightblue;
+    text-align: center;
+    border: 1px dotted #025FFF;
+}
+
+td{
+    border: 1px dotted #025FFF;
+}
+
+.twee {
+color: cyan;
+background-color: blue;
+}
+
+.other{
+    color: lightgray;
+    background-color: gray;
+}
