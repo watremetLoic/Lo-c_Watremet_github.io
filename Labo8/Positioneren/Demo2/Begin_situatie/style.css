@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    background-color: pink;
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+section{
+    background-color: purple;
+    float: left;
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+footer{
+    background-color: red;
+    clear: both;
+    height:  100px;
+    width: 100%;
+}

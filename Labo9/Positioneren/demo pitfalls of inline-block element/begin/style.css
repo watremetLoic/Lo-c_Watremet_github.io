@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    background-color: gray;
+    height: 100px;
+
+}
+.div{
+    display: inline-block;
+    position: absolute;
+    width:;
+    background-color: red;
+    height: 50px;
+}
