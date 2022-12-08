@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+        /* Boven section */
+
 .top{
     background-image: url("./fotos/bgsky3.jpg");
     text-align: center;
@@ -35,6 +38,8 @@
     bottom: 100px;
 }
 
+       /* Introductuctie */
+
 #logo{
     display: inline-block;
     float: left;
@@ -42,19 +47,28 @@
     padding: 10px 0 0 10px;
 }
 
-.rechts{
+.intro{
     display: inline-block;
-    float: right;
-    width: 80%;
+    float: left;
+    max-width: 65%;
+}
+
+        
+
+.gallery{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .news{
     display: inline-block;
     background-color: lightgrey;
-    float: right;
-    width: 40%;
+    width: 25%;
     height: 1000px;
+    float: right;
 }
+
 h3{
     background-color: darkblue;
     color: white;
@@ -68,11 +82,6 @@ p{
 
 .gallery{
     display: inline-block;
-
-}
-
-.gallery .foto{
-    position: relative;
 
 }
 
