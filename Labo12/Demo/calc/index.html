@@ -1,0 +1,87 @@
+51
+<html>
+52
+<head>
+    53
+    ​
+    54
+    <title> CSS calc() Function Example </title>
+    55
+    <style>
+        56
+        /*  First of all: CSS variables can have a global or local scope.
+ 57
+ ​
+ 58
+           Global variables can be accessed/used through the entire document, while local variables can be used only inside the selector where it is declared.
+ 59
+ ​
+ 60
+         To create a variable with global scope, declare it inside the :root selector. The :root selector matches the document's root element.
+ 61
+ ​
+ 62
+         To create a variable with local scope, declare it inside the selector that is going to use it.*/
+        63
+        :root {
+            64
+            --nav: #1e90ff; /* altijd 2 koppel tekens voor een variable te maken */
+            65
+            --article: #ff9000 ;
+            66
+        }
+        67
+        nav {
+            68
+            width: 100px;
+            69
+            float: left;
+            70
+            background: var(--nav);
+            71
+        }
+        72
+        article {
+            73
+            width: calc(100% - 100px);
+            74
+            float: right;
+            75
+            background: var(--article);
+            76
+        }
+        77
+        article, nav {
+            78
+            color: white;
+            79
+            padding: 30px;
+            80
+            box-sizing: border-box;
+            81
+        }
+        82
+    </style>
+    83
+    ​
+    84
+    ​
+    85
+</head>
+86
+<body>
+87
+<nav>
+    88
+    <h1>Nav</h1>
+    89
+</nav>
+90
+<article>
+    91
+    <h1>Article</h1>
+    92
+</article>
+93
+</body>
+94
